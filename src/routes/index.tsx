@@ -358,7 +358,7 @@ function Index() {
               </div>
               <p className="body-copy reveal mt-8 max-w-xl text-ink/60">Building adaptive and resilient space-to-ground communication systems for the most demanding environments.</p>
             </div>
-            <div className="reveal flex items-center justify-center md:col-span-7 md:col-start-6 md:justify-end lg:col-span-3 lg:col-start-10 lg:justify-end lg:self-center"><Logo className="h-40 w-40 sm:h-56 sm:w-56 lg:h-[clamp(170px,15vw,256px)] lg:w-auto lg:max-w-full" /></div>
+            <div className="reveal flex items-center justify-center md:col-span-7 md:col-start-6 md:justify-end lg:col-span-3 lg:col-start-10 lg:justify-end lg:self-center lg:-translate-y-[9%]"><Logo className="h-44 w-44 sm:h-60 sm:w-60 lg:h-[clamp(190px,17vw,290px)] lg:w-auto lg:max-w-full" /></div>
           </div>
         </div>
       </section>
