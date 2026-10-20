@@ -9,9 +9,9 @@ import { media } from "@/media";
 const issVideo = media.video;
 import { FOUNDER_BIRTH_ISO, FOUNDER_BIRTH_EN, founderAge } from "@/founder";
 
-const seoTitle = "GodHeimer Technologies | Space & Defense Technology from Thailand";
+const seoTitle = "GodHeimer | Space & Defense Technology";
 const seoDescription =
-  "From a poor temple boy to Founder & CEO. Boss Natthakorn Mueangsangsri (บอส ณัฏฐากร เมืองแสงศรี), born January 16, 2007, grew up in poverty as a temple boy. At 19, he founded GodHeimer Technologies (formerly OloLink Technologies), a Thai space and defense technology startup.";
+  "GodHeimer is a Thai space and defense technology company developing resilient space-to-Earth communications and adaptive infrastructure for changing environments.";
 
 
 
@@ -24,7 +24,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: seoTitle },
       { property: "og:description", content: seoDescription },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "GodHeimer Technologies" },
+      { property: "og:site_name", content: "GodHeimer" },
       { property: "og:url", content: "/" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: seoTitle },
@@ -38,16 +38,15 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "GodHeimer Technologies",
-          alternateName: "GodHeimer",
+          name: "GodHeimer",
+          alternateName: "GodHeimer Technologies",
           founder: {
             "@type": "Person",
             name: "Boss Natthakorn Mueangsangsri",
             alternateName: "บอส ณัฏฐากร เมืองแสงศรี",
             birthDate: FOUNDER_BIRTH_ISO,
           },
-          description:
-            "Thai space and defense technology company founded by a 19-year-old from a poor background (formerly OloLink Technologies)",
+          description: seoDescription,
           sameAs: [
             "https://facebook.com/godheimer",
             "https://instagram.com/godheimerhj",
@@ -55,6 +54,17 @@ export const Route = createFileRoute("/")({
             "https://linkedin.com/company/godheimer",
             "https://tiktok.com/@ololink",
           ],
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "GodHeimer",
+          alternateName: "GodHeimer Technologies",
+          description: seoDescription,
+          publisher: { "@type": "Organization", name: "GodHeimer" },
         }),
       },
     ],
