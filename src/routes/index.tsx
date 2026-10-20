@@ -343,7 +343,7 @@ function Index() {
                 <span className="portrait-tag mono"><span className="portrait-tag-left">GH-03 // FOUNDER</span><span className="portrait-tag-meta">EST. 2026</span></span>
               </div>
             </div>
-            <div className="md:col-span-7 lg:col-span-6">
+            <div className="md:col-span-7 lg:col-span-5">
               <p className="mono mono-lg reveal mb-6 text-ink/50">Founder &amp; CEO, GodHeimer Technologies</p>
               <h2 className="display-lg"><Lines lines={["Natthakorn “Boss”", "Mueangsangsri"]} /></h2>
               <div className="reveal mt-8 flex flex-wrap gap-x-12 gap-y-5 border-t border-line-light pt-6">
