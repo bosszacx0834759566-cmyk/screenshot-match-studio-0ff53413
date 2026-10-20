@@ -343,9 +343,9 @@ function Index() {
                 <span className="portrait-tag mono"><span className="portrait-tag-left">GH-03 // FOUNDER</span><span className="portrait-tag-meta">EST. 2026</span></span>
               </div>
             </div>
-            <div className="md:col-span-7 lg:col-span-6">
+            <div className="md:col-span-7 lg:col-span-5">
               <p className="mono mono-lg reveal mb-6 text-ink/50">Founder &amp; CEO, GodHeimer Technologies</p>
-              <h2 className="display-lg"><Lines lines={["Natthakorn “Boss”", "Mueangsangsri"]} /></h2>
+              <h2 className="display-lg lg:w-[124%]"><Lines lines={["Natthakorn “Boss”", "Mueangsangsri"]} /></h2>
               <div className="reveal mt-8 flex flex-wrap gap-x-12 gap-y-5 border-t border-line-light pt-6">
                 <div>
                   <p className="mono text-ink/40">Born</p>
@@ -358,7 +358,7 @@ function Index() {
               </div>
               <p className="body-copy reveal mt-8 max-w-xl text-ink/60">Building adaptive and resilient space-to-ground communication systems for the most demanding environments.</p>
             </div>
-            <div className="reveal flex items-end justify-center md:col-span-7 md:col-start-6 md:justify-end lg:col-span-2 lg:col-start-11 lg:justify-end lg:self-end"><Logo className="h-32 w-32 sm:h-44 sm:w-44 lg:h-[clamp(130px,10.6vw,188px)] lg:w-auto lg:max-w-full" /></div>
+            <div className="reveal flex items-center justify-center md:col-span-7 md:col-start-6 md:justify-end lg:col-span-3 lg:col-start-10 lg:justify-end lg:self-center"><Logo className="h-40 w-40 sm:h-56 sm:w-56 lg:h-[clamp(170px,15vw,256px)] lg:w-auto lg:max-w-full" /></div>
           </div>
         </div>
       </section>
