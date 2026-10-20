@@ -20,3 +20,4 @@
 
 - Original imported media pointers are archived in place and must not be rendered; use current-project pointers for all live media. Why: imported pointers are scoped to the source project and fail on this site's origin.
 - Centralize immutable optimized image variants, dimensions, poster, and shared video in src/media.ts; use responsive lazy images below the fold. Why: one delivery map preserves original media and avoids oversized downloads.
+- Keep page search metadata and Organization/WebSite structured data in the homepage head, with only shared defaults in the root; use a relative canonical until the public domain is known to avoid claiming an unverified host.

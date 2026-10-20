@@ -78,11 +78,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "GodHeimer Technologies" },
-      { name: "description", content: "Resilient space-to-Earth communication infrastructure." },
       { name: "author", content: "GodHeimer Technologies" },
-      { property: "og:title", content: "GodHeimer Technologies" },
-      { property: "og:description", content: "Resilient space-to-Earth communication infrastructure." },
+      { property: "og:site_name", content: "GodHeimer" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

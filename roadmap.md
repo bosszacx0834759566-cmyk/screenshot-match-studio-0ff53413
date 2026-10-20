@@ -1,5 +1,8 @@
 # Roadmap
 
+- [ ] Update GodHeimer search identity, description, structured data, canonical, favicon, and crawler settings without design changes.
+- [ ] Create sitemap.xml once a real public site URL is available; blocked because the site is not published and no domain is known.
+
 - [x] Optimize image delivery, initial loading, and animation overhead without changing the design; responsive WebP images and menu verified, 17 tests pass. Original video preserved; sandbox Chromium cannot verify H.264 playback.
 
 - [x] Recover all six original media files into current-project assets without deleting archived pointers; three images load, all recovered bytes match originals, homepage/menu share the restored MP4, and full clip decoding succeeds. Sandbox Chromium cannot play H.264, so native browser playback remains unverified.
