@@ -1,6 +1,6 @@
 # Roadmap
 
-- [ ] Update GodHeimer search identity, description, structured data, canonical, favicon, and crawler settings without design changes.
+- [x] Update GodHeimer search identity, description, Organization/WebSite structured data, relative canonical, and custom logo favicon; existing robots.txt allows crawling. Browser checks and all 17 tests pass, design unchanged.
 - [ ] Create sitemap.xml once a real public site URL is available; blocked because the site is not published and no domain is known.
 
 - [x] Optimize image delivery, initial loading, and animation overhead without changing the design; responsive WebP images and menu verified, 17 tests pass. Original video preserved; sandbox Chromium cannot verify H.264 playback.
