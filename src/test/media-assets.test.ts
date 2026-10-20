@@ -11,7 +11,7 @@ describe("media assets", () => {
   for (const name of pointers) {
     it(`${name} belongs to the current project`, () => {
       const pointer = JSON.parse(readFileSync(join(assetDir, name), "utf8"));
-      expect(pointer.project_id).toBe("3c1139a2-97d9-49f6-bc2e-0db9f761c1f7");
+      expect(pointer.project_id).toBe("7c4fced3-98d7-40ce-8d98-0808b7441bf8");
       expect(pointer.size).toBeGreaterThan(1024);
       expect(pointer.url).toContain(`/__l5e/assets-v1/${pointer.asset_id}/`);
     });
